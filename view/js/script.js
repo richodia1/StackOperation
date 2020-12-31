@@ -42,10 +42,13 @@ function push(){
 
 function empty(){
     if(items.length > 0){
-        alert("Stack is not empty!");
+        alert("No, Stack is not empty");
         return;
     }
-    items.splice(0, items.length);
+    else{
+        alert("Yes, Stack is empty");
+        return;
+    }
 }
 
 function peek(){
@@ -53,7 +56,7 @@ function peek(){
         alert("Operation not allowed!");
         return
     }
-    alert(items[items.length - 1]);
+    alert("Top Value is: " + items[items.length - 1]);
 }
 
 let pushBtn = document.querySelector(".action.push-btn")
