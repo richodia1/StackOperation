@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.539" tests="9" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-07-21T15:29:11" tests="0" failures="0" time="0">
+  </testsuite>
+  <testsuite name="Stack operation test" timestamp="2019-07-21T15:29:11" tests="9" file="/Users/gopal.jayaraman/learning/hackerrank/stack-operation/test/test.js" failures="0" time="1.539">
+    <testcase name="Stack operation test Clicking on the push button should push the item to the bottom of the stack board" time="0.104" classname="Clicking on the push button should push the item to the bottom of the stack board">
+    </testcase>
+    <testcase name="Stack operation test Without any input clicking on push button should show alert “Please input a value”" time="0.085" classname="Without any input clicking on push button should show alert “Please input a value”">
+    </testcase>
+    <testcase name="Stack operation test peek button click should show an alert message “operation not allowed” if the stack board is empty." time="0.033" classname="peek button click should show an alert message “operation not allowed” if the stack board is empty.">
+    </testcase>
+    <testcase name="Stack operation test Clicking on the “empty” button should show alert whether the stack is empty or not." time="0.129" classname="Clicking on the “empty” button should show alert whether the stack is empty or not.">
+    </testcase>
+    <testcase name="Stack operation test Clicking on the peek button should return the item on the top of the stack, without removing it." time="0.142" classname="Clicking on the peek button should return the item on the top of the stack, without removing it.">
+    </testcase>
+    <testcase name="Stack operation test While pushing an item if stack board is full should show the alert message “Stack was already full!” and there is no change in the existing stack." time="0.348" classname="While pushing an item if stack board is full should show the alert message “Stack was already full!” and there is no change in the existing stack.">
+    </testcase>
+    <testcase name="Stack operation test Pop, peek and swap action buttons clicks also should show an alert message “operation not allowed” if the stack board is empty." time="0.103" classname="Pop, peek and swap action buttons clicks also should show an alert message “operation not allowed” if the stack board is empty.">
+    </testcase>
+    <testcase name="Stack operation test Clicking on the swap can swap two topmost elements of the stack " time="0.293" classname="Clicking on the swap can swap two topmost elements of the stack ">
+    </testcase>
+    <testcase name="Stack operation test Clicking on pop will remove the top item from the stack." time="0.302" classname="Clicking on pop will remove the top item from the stack.">
+    </testcase>
+  </testsuite>
+</testsuites>
